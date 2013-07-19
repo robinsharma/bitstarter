@@ -3,39 +3,67 @@
   <head>
     <meta charset="utf-8">
     <title>My First Bitstarter</title>
-    <link type="text/css" rel="stylesheet"
-	  href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-2.3.2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
+    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">    
+    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
+    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" 
+          rel="stylesheet" type="text/css">
     <style type="text/css">
+      @meta (min-width: 980px) {
       body {
-      padding-top: 20px;
-      padding-bottom: 40px;
+      padding-top: 60px;
       }
-      .container {
-      width: 960px;
+      .linediv-l {
+      border-right: 1px white solid;
       }
-      p.lead {
-      padding-top: 15px;
+      .linediv-r {
+      boarder-left: 1px white solid;
       }
-      .navigation, .pitch, .section1, .section2, .faq, .footer {
-      padding: 10px 0px 10px 0px;
       }
-      .video, .thermometer, .order, .social {
-      border: 1px dotted;
+
+      @media (max-width: 480px) {
+      .copy {
+      padding: 2.5% 10%;
+      }
+      .linediv-l {
+      border-botton: 1px white solid;
+      }
+      .linediv-r {
+      border-top: 1px white solid;
+      }
+      }
+
+      body {
+      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+      }
+      .heading, .subheading {
+      font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
       text-align: center;
       }
-      .video {
-      /* Internal borders have 1px width, thus need to add 4 x 1px to 120px. */
-      height: 124px;
-      line-height: 124px;
+      p.lead {
+      padding-top: 1.5%;
+      font-size: 24px;
+      line-height: 30px;
       }
-      .thermometer, .order, .social {
-        /* line-height to vertically center: http://phrogz.net/css/vertical-align/index.html */
-      height: 40px;
-        line-height: 40px;
+      p {
+      font-size: 18px;
+      line-height: 24px;
       }
-      div.row {
-      border: 1px solid;
+
+      .pitch {
+      padding: 2.5% 0%;
       }
+      .order {
+      padding: 2% 0%;
+      }
+      .actions {
+      background-color: #343434;
+      }
+      .video, .thermometer, .order
     </style>
     
   </head>
@@ -54,7 +82,7 @@
       </div>
       <div class="row heading">
         <div class="span12">
-          <h1>Bitstarter Title</h1>
+          <h1>The Crimson Concept</h1>
         </div>
       </div> 
       <div class="row subheading">
